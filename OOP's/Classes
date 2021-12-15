@@ -1,0 +1,13 @@
+class Computer:
+
+    def config(self):
+        name = str(input("Enter your name:"))
+        print(f"Hello {name}")
+
+comp1=Computer()
+
+comp1.config()
+
+Output:
+Enter your name:Naveen
+Hello Naveen
